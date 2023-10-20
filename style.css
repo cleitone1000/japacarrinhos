@@ -1,0 +1,111 @@
+:root {
+    --cor-primaria: #333; /* Cor principal (preto) */
+    --cor-secundaria: #ff6600; /* Cor secundária (laranja) */
+    --cor-texto: #666; /* Cor do texto (cinza) */
+    --cor-fundo: #f7f7f7; /* Cor de fundo (cinza claro) */
+  }
+  
+  /* Estilos gerais */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+  }
+  
+  h1, h2 {
+    color: var(--cor-primaria);
+  }
+  
+  a {
+    color: var(--cor-secundaria);
+  }
+  
+  /* Estilos do cabeçalho */
+  header {
+    background-color: var(--cor-primaria);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  /* Estilos do banner */
+  #banner {
+    text-align: center;
+    padding: 40px;
+  }
+  
+  /* Estilos dos botões de chamada para ação (CTA) */
+  .cta-button {
+    display: inline-block;
+    background-color: var(--cor-secundaria);
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .cta-button:hover {
+    background-color: #ff4400; /* Tom mais escuro do laranja ao passar o mouse */
+  }
+  
+  /* Estilos dos serviços */
+  #servicos {
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  #servicos ul {
+    list-style: none;
+  }
+  
+  /* Estilos do portfólio */
+  #portfolio {
+    background-color: var(--cor-fundo);
+    padding: 20px;
+  }
+  
+  .portfolio-item {
+    margin: 20px;
+    text-align: center;
+  }
+  
+  /* Estilos do formulário de contato */
+  #contato {
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  form label, form input, form textarea, form button {
+    display: block;
+    margin: 10px;
+  }
+  
+  form button {
+    background-color: var(--cor-secundaria);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  form button:hover {
+    background-color: #ff4400;
+  }
+  
+  /* Estilos do rodapé */
+  footer {
+    background-color: var(--cor-primaria);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
