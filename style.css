@@ -1,9 +1,11 @@
 :root {
-    --cor-primaria: #333; /* Cor principal (preto) */
-    --cor-secundaria: #ff6600; /* Cor secundária (laranja) */
+    --cor-primaria: #214DA6; /* Cor principal (Azul) */
+    --cor-secundaria: #F21D2F; /* Cor secundária (laranja) */
     --cor-texto: #666; /* Cor do texto (cinza) */
     --cor-fundo: #f7f7f7; /* Cor de fundo (cinza claro) */
   }
+
+ 
   
   /* Estilos gerais */
   body {
