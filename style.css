@@ -33,11 +33,12 @@
   
   nav ul {
     list-style: none;
+    white-space: nowrap;
   }
   
   nav ul a {
     background-color: white;
-    display: inline;
+    display: inline-block;
     margin-right: 20px;
     padding: 10px;
     border-radius: 10px;
@@ -90,16 +91,29 @@
     list-style: none;
   }
   
-  /* Estilos do portfólio */
-  #portfolio {
-    background-color: var(--cor-fundo);
-    padding: 20px;
-  }
-  
-  .portfolio-item {
-    margin: 20px;
-    text-align: center;
-  }
+  /* Adicione este trecho ao seu arquivo style.css */
+
+/* Estilos do portfólio */
+#portfolio {
+  background-color: var(--cor-fundo);
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; /* Ou utilize space-between ou space-evenly conforme desejado */
+}
+
+.portfolio-item {
+  width: 250px; /* Ajuste conforme necessário para o tamanho desejado das imagens */
+  margin: 20px;
+  text-align: center;
+}
+
+.portfolio-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px; /* Adicionando borda arredondada para estilização */
+}
+
   
   /* Estilos do formulário de contato */
   #contato {
